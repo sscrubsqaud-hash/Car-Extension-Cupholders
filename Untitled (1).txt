@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Cupholder Adapter | Shop Now</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 20px; }
+        @media (max-width: 768px) { .product-grid { grid-template-columns: 1fr; } }
+        .product-image { background: #ddd; border-radius: 12px; width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .product-image img { width: 100%; height: auto; }
+        .price { font-size: 2rem; color: var(--primary); font-weight: bold; margin: 10px 0; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #1d4ed8; transform: translateY(-2px); }
+        .specs-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .specs-table td { padding: 12px; border-bottom: 1px solid #cbd5e1; }
+        .specs-table td:first-child { font-weight: bold; color: var(--primary); }
+        .badge { background: #dcfce7; color: #166534; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Ultimate Over-Sized Bottle Adapter</h1>
+    <p>Never let your drink rattle again.</p>
+</header>
+
+<div class="container">
+    <div class="product-grid">
+        <div class="product-image">
+            <img src="cupholder.jpg" alt="3D Printed Cupholder Adapter">
+        </div>
+
+        <div>
+            <span class="badge">In Stock & Ready to Ship</span>
+            <h2>Precision-Engineered Cupholder</h2>
+            <p class="price">$24.99</p>
+            <p>Tired of your favorite water bottle rolling around on the floor every time you take a turn? This custom-engineered adapter bridges the gap between your car’s console and your oversized gear.</p>
+            
+            <a href="#" class="btn">Add to Cart</a>
+            
+            <table class="specs-table">
+                <tr><td>Compatibility</td><td>Stanley, Hydro Flask, Yeti</td></tr>
+                <tr><td>Material</td><td>High-Temp UV Resistant Polymer</td></tr>
+                <tr><td>Base Diameter</td><td>72mm (Standard Fit)</td></tr>
+                <tr><td>Handle Slot</td><td>Integrated (Fits Mugs)</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ddd;">
+
+    <h3>Why Choose Our Design?</h3>
+    <ul>
+        <li><strong>Precision Fit:</strong> Designed to sit deep in standard slots to prevent tipping.</li>
+        <li><strong>High-Temp Durable:</strong> Won't warp or melt in hot summer cars.</li>
+        <li><strong>No-Slip Grip:</strong> Tapered base ensures a snug, rattle-free experience.</li>
+    </ul>
+</div>
+
+<footer style="text-align: center; padding: 40px; color: #64748b;">
+    <p>&copy; 2026 Your 3D Design Studio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
